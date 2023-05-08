@@ -1,3 +1,4 @@
-import { a, b } from "./exportMultipleValues.mjs";
-console.log(a);
-console.log(b);
+import { myArray, bulb, multiplyByFour } from "./exportMultipleValues.mjs";
+console.log(myArray);
+console.log(bulb);
+console.log(multiplyByFour(4));
